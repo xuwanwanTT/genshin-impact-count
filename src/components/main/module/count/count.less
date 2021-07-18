@@ -1,0 +1,64 @@
+.count-item-wrap {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+  margin-left: 20px;
+  .title {
+    width: 80px;
+    color: #fff;
+    font-size: 18px;
+    margin-right: 20px;
+    text-align: justify;
+    text-align-last: justify;
+  }
+}
+
+.relics-info-wrap {
+  color: #fff;
+  display: flex;
+  .relics-item {
+    margin: 0 20px;
+    .title {
+      margin-bottom: 10px;
+    }
+    .relics-item-info {
+      margin-bottom: 15px;
+      .count-number {
+        margin-left: 20px;
+        display: flex;
+        align-items: center;
+        > div:first-child {
+          height: 32px;
+          border: 1px solid #fff;
+          line-height: 32px;
+        }
+        > div:last-child {
+          width: 80px;
+          height: 32px;
+          line-height: 32px;
+          border: 1px solid #fff;
+        }
+      }
+      .count-number.deputy,
+      .count-number.primary {
+        margin-bottom: 10px;
+        > div:first-child {
+          border: none;
+        }
+      }
+    }
+  }
+  
+}
+
+.count-button {
+  display: inline-block;
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid #fff;
+  font-size: 18px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 5px 30px;
+}
